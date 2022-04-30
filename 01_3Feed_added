@@ -1,0 +1,15 @@
+interface Tweet {
+  author: TweetAuthor
+  tweet: string
+  timestamp: string
+}
+
+interface TweetAuthor {
+  name: string
+  walletAddress: string
+  profileImage: string
+  isProfileImageNft: boolean
+}
+
+function Feed() {
+  const { tweets } = useContext(TwitterContext)
