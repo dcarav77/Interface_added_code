@@ -1,0 +1,15 @@
+  //thisisthenewshit
+  
+  interface Tweet {
+    timestamp: string
+    tweet: string
+  }
+  
+  interface Tweets extends Array<Tweet> {}
+  
+  interface Author {
+    name: string
+    profileImage: string
+    walletAddress: string
+    isProfileImageNft: Boolean | undefined
+  }
