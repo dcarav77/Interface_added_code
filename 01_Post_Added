@@ -1,0 +1,10 @@
+**/////***added on line22
+
+interface PostProps {
+  displayName: string
+  userName: string
+  text: string
+  avatar: string
+  timestamp: string
+  isProfileImageNft: Boolean | undefined
+}
